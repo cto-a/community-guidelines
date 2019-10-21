@@ -28,8 +28,7 @@
     * 本名
     * 本名のローマ字表記
     * ハンドルネーム
-  * 例:
-    * 栗林 健太郎 Kentaro Kuribayashi antipop
+  * 例: 栗林 健太郎 Kentaro Kuribayashi antipop
 * **表示名** （英語UIでは `Display Name`）
   * できるだけ多くの参加者があなたのことをアイデンティファイできると思われる識別子
   * 例: あんちぽ
