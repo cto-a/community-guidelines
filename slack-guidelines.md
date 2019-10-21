@@ -118,12 +118,12 @@ cto-aワークスペースにおけるコミュニケーションの活性化を
 
 ## 本ガイドライン違反の通報について
 
-本ガイドライン（および、[行動規範](https://github.com/cto-a/community-management-resources/blob/master/code-of-conduct.md））に抵触する行為については、当協会のオンラインコミュニティマネージャーへダイレクトメッセージを送ってください。下記の通り取り扱います。
+本ガイドライン（および、[行動規範](https://github.com/cto-a/community-management-resources/blob/master/code-of-conduct.md)）に抵触する行為については、当協会のオンラインコミュニティマネージャーへダイレクトメッセージを送ってください。下記の通り取り扱います。
 
 * 課題解決に必要なため、当協会の理事および事務局に限り、内容を開示します
 * 通報者が誰であるかは、通報者の明示的な同意なく明かすことはありません
 
-本ガイドラインへの著しい抵触行為については、[行動規範](https://github.com/cto-a/community-management-resources/blob/master/code-of-conduct.md）への抵触と同様の取り扱いを行うことがあります。
+本ガイドラインへの著しい抵触行為については、[行動規範](https://github.com/cto-a/community-management-resources/blob/master/code-of-conduct.md)への抵触と同様の取り扱いを行うことがあります。
 
 ## 本文書の変更提案について
 
