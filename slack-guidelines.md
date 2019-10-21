@@ -88,7 +88,7 @@ cto-aワークスペースにおけるコミュニケーションの活性化を
 
 ### カスタム絵文字の追加
 
-[行動規範](https://github.com/cto-a/community-management-resources/blob/master/code-of-conduct.md）、および、著作権法に抵触しない限り、自由に追加してください。
+[行動規範](https://github.com/cto-a/community-management-resources/blob/master/code-of-conduct.md)、および、著作権法に抵触しない限り、自由に追加してください。
 
 ### Slackbotのレスポンス設定
 
