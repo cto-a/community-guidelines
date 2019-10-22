@@ -127,3 +127,7 @@ cto-aワークスペースにおけるコミュニケーションの活性化を
 ## 本文書の変更提案について
 
 [GitHub上で当協会が管理するオーガニゼーション内のリポジトリ（cto-a/membership-documents）](https://github.com/cto-a/membership-documents)へのイシューやプルリクエストにより、お寄せください。
+
+## 本文書のライセンスについいて
+
+本文書は、[Creative Commons — 表示 4.0 国際 — CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)の下で配布されています。当該ライセンス従う限り、自由に利用できます。
