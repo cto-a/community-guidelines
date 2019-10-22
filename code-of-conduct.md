@@ -1,6 +1,6 @@
 # 行動規範（Code of Conduct）
 
-本文書は、一般社団法人日本CTO協会（以下、当協会）の理事、会員、事務局メンバー、当協会主催のイベントへの参加者およびスポンサーからなるこのコミュニティの全メンバーが、オンラインあるいはオフラインの活動のいずれにおいても、従うべき行動規範について記載したものです。コミュニティの全メンバーは、このコミュニティの全ての参加者が、誰にとっても安全な環境を保障するために、協力し合うことを期待されています。
+本文書は、一般社団法人日本CTO協会（以下、当協会）の理事、会員、事務局メンバー、当協会主催のイベントへの参加者およびスポンサーからなるこのコミュニティの全メンバーが、オンラインあるいはオフラインの活動のいずれにおいても、従うべき行動規範について記載したものです。
 
 私たちのコミュニティは、性別、性的自認、外形的な性別、年齢、性的指向、障害、身体的特徴、身体のサイズ、人種、民族、宗教（あるいは無宗教）、技術の選択、を理由としたハラスメントの無い状態を維持すべく行動します。私たちは、コミュニティメンバーに対する、いかなる種類のハラスメントも容認しません。性的な表現や画像は、トーク、ワークショップ、パーティ、Twitterその他のオンラインメディアを含め、いかなるコミュニティイベントでも、不適切なものとします。これらの規則を破った参加者は、当協会の理事による決定のもと、制裁を受けるか、当該イベントおよび将来のあらゆるイベントあるいはコミュニティから、払い戻し（もしある場合でも）無しで参加を拒絶されることがあります。
 
@@ -9,7 +9,15 @@
 * 課題解決に必要なため、当協会の理事および事務局に限り、内容を開示します
 * 通報者が誰であるかは、通報者の明示的な同意なく明かすことはありません
 
+コミュニティの全メンバーは、このコミュニティの全ての参加者が、誰にとっても安全な環境を保障するために協力し合うことを期待されています。
+
 ----
 
-* 元のソースとクレジット表記: http://2012.jsconf.us/#/about, [The Ada Initiative](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), [confcodeofconduct.com](http://confcodeofconduct.com/)および[jp.communitycodeofconduct.com](https://jp.communitycodeofconduct.com)
-* 本文書は、[Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/deed.en_US)の下で公開されている[原文](https://jp.communitycodeofconduct.com)に改変を加えたものです。本文書もまた、同ライセンスに従う限り、自由に利用できます。
+本文書は、[Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/deed.en_US)の下で公開されている[原文](https://jp.communitycodeofconduct.com)に改変を加えたものです。本文書もまた、同ライセンスに従う限り、自由に利用できます。
+
+本文書のソースおよびクレジット表記は、以下の通りです。
+
+* http://2012.jsconf.us/#/about
+* [The Ada Initiative](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
+* [confcodeofconduct.com](http://confcodeofconduct.com/)
+* [jp.communitycodeofconduct.com](https://jp.communitycodeofconduct.com)（本文書の直接のソース）
