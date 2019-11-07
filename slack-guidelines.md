@@ -137,7 +137,7 @@ CTOA Communityワークスペースにおけるコミュニケーションの活
 
 ## 本文書の変更提案について
 
-[GitHub上で当協会が管理するオーガニゼーション内のリポジトリ（cto-a/membership-documents）](https://github.com/cto-a/membership-documents)へのイシューやプルリクエストにより、お寄せください。
+[GitHub上で当協会が管理するオーガニゼーション内のリポジトリ（cto-a/community-management-resources）](https://github.com/cto-a/community-management-resources)へのイシューやプルリクエストにより、お寄せください。
 
 ## 本文書のライセンスについいて
 
