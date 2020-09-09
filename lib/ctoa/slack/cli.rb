@@ -2,8 +2,8 @@ require 'ctoa'
 require 'thor'
 
 class CTOA::Slack::CLI < Thor
-  desc 'check_profile', 'Slack利用ガイドラインに基づくプロフィール設定がされているかどうかをチェックし、されていない場合にDMでうながす'
-  def check_profile
+  desc 'check_member_profiles_if_they_comply_slack_guidelines', 'Slack利用ガイドラインに基づくプロフィール設定がされているかどうかをチェックし、されていない場合にDMでうながす'
+  def check_member_profiles_if_they_comply_slack_guidelines
     not_compliant_members = 0
     template = <<~'EOS'
       <%= member.profile.real_name %>さん、こんにちは！このSlackコミュニティの世話をしている、日本CTO協会理事のあんちぽです！！１
@@ -32,12 +32,21 @@ class CTOA::Slack::CLI < Thor
     end
 
     puts <<~EOS
-     メンバー総数: #{slack.all_members.length}（準拠: #{not_compliant_members}、非準拠: #{slack.all_members.length - not_compliant_members}）
+     メンバー総数: #{slack.all_members.length}（準拠: #{slack.all_members.length - not_compliant_members}、非準拠: #{not_compliant_members}）
 
      非準拠の#{slack.all_members.length - not_compliant_members}の方に、以下の内容でDMを送りました。
 
      #{template}
      EOS
+  end
+
+  desc 'num_of_members_whose_profiles_dont_comply_slack_guidelines', 'Slack利用ガイドラインに基づくプロフィール設定がされていない人数を表示する'
+  def num_of_members_whose_profiles_dont_comply_slack_guidelines
+    not_compliant_members = slack.all_members.count do |m|  
+      profile_violates_guidelines?(m.profile)
+    end
+
+    puts "メンバー総数: #{slack.all_members.length}（準拠: #{slack.all_members.length - not_compliant_members}、非準拠: #{not_compliant_members}）"
   end
 
   private 
