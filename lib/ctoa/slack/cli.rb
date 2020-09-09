@@ -28,6 +28,8 @@ class CTOA::Slack::CLI < Thor
       if profile_violates_guidelines?(member.profile)
         not_compliant_members += 1
         slack.send_dm_to(member, CTOA::Util.render_text(template, binding))
+        puts "DM sent to #{member.profile.real_name}."
+        sleep 1
       end
     end
 
