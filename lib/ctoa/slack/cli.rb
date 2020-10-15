@@ -44,14 +44,19 @@ class CTOA::Slack::CLI < Thor
 
   desc 'num_of_members_whose_profiles_dont_comply_slack_guidelines', 'Slack利用ガイドラインに基づくプロフィール設定がされていない人数を表示する'
   def num_of_members_whose_profiles_dont_comply_slack_guidelines
-    not_compliant_members = slack.all_members.count do |m|  
+    not_compliant_members = slack.all_members.count do |m|
       profile_violates_guidelines?(m.profile)
     end
 
     puts "メンバー総数: #{slack.all_members.length}（準拠: #{slack.all_members.length - not_compliant_members}、非準拠: #{not_compliant_members}）"
   end
 
-  private 
+  desc 'dump-member-ids', 'メンバー全員のIDをカンマ区切りで表示する'
+  def dump_member_ids
+    puts(slack.all_members.map(&:id).join(','))
+  end
+
+  private
 
   def slack
     @slack ||= CTOA::Slack.new
